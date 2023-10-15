@@ -4,6 +4,7 @@
 
 #include "treeOnDisk.h"
 #include "treeOnDisk.cpp"
+
 void clear() {
     #ifdef _WIN32
         system("cls"); 
@@ -13,7 +14,6 @@ void clear() {
 }
 
 int main() {
-	int main() {
     // Criar uma nova árvore B
     BTree* tree = createBTree();
 
